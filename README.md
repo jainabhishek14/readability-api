@@ -4,6 +4,19 @@ Use this readability service to extract relevant content from links or messed up
 
 This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
 
+## Usage
+
+There are 2 types to extract the relevant content:
+
+1. Link:
+    https://<hostname>/read/link
+
+2. Text:
+    https://<hostname>/read/text
+
+## Parameters
+* Source: It contains link or garbled text
+
 ## Pre-requisites
 * PHP >= 5.6
 * php-xml
