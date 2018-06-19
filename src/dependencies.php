@@ -17,3 +17,8 @@ $container['logger'] = function ($c) {
     $logger->pushHandler(new Monolog\Handler\StreamHandler($settings['path'], $settings['level']));
     return $logger;
 };
+
+$container['ReadabilityController'] = function($container) {
+	return new App\Controllers\ReadabilityController($container);
+};
+?>
