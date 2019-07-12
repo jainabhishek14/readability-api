@@ -22,6 +22,8 @@ There are 2 types to extract the relevant content:
 * php-xml
 * php-mbstring
 * composer >= 1.5.2
+* zip and unzip untility
+* mod-rewrite apache module (optional)
 
 ## Install the Application
 
@@ -38,6 +40,10 @@ To run the application in development, you can run these commands
 
 	cd readability
 	php composer.phar start
+
+to deploy on production environment add below configuration to corresponding virtual host
+
+    AllowOverride All
 
 Run this command in the application directory to run the test suite
 

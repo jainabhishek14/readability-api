@@ -18,7 +18,6 @@ $container['logger'] = function ($c) {
     return $logger;
 };
 
-$container['ReadabilityController'] = function($container) {
-	return new App\Controllers\ReadabilityController($container);
+$container['ReadabilityController'] = function ($container) {
+    return new App\Controllers\ReadabilityController($container);
 };
-?>
